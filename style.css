@@ -16,6 +16,9 @@ h1{
     margin: 20px auto;
     font-size: 48px;
     font-weight: 700;
+    display: inline-block;
+    width: 50%;
+    background-color:aquamarine;
     
     
 }
@@ -136,4 +139,11 @@ input:focus, textarea:focus{
     display: inline-block;
     width:100px;
 }
+.top a:hover{
+    color: tomato;
+}
+.top a:hover::before{
+    content: "👍";
+}
+
 
